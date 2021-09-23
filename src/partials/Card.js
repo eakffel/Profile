@@ -1,6 +1,5 @@
 import React from 'react'
 import profile from '../images/profile.png'
-
 import { FaGithub } from 'react-icons/fa';
 import { FaDribbble } from 'react-icons/fa';
 function Card() {

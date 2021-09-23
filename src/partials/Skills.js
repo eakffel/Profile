@@ -1,5 +1,4 @@
 import React from 'react'
-
 import { FaPalette } from 'react-icons/fa';
 import { FaReact } from 'react-icons/fa';
 import { FaCode } from 'react-icons/fa';
