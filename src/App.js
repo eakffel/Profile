@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './App.css'
-import About from './partials/About'
+import About from './partials/Work'
 import Card from './partials/Card'
 import Footer from './partials/Footer'
 import Skills from './partials/Skills'
