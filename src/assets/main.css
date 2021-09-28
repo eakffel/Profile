@@ -23,6 +23,7 @@ Use a more readable tab size (opinionated).
 
 html {
   tab-size: 4;
+
 }
 
 /**
@@ -47,6 +48,7 @@ Remove the margin in all browsers.
 body {
   margin: 0;
 }
+
 /**
 Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
 */
@@ -430,7 +432,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   opacity: 1;
-  color: #345374;
+  color: #cbd5e0;
 }
 
 button,
@@ -532,7 +534,7 @@ iframe,
 embed,
 object {
   display: block; /* 1 */
-  vertical-align: auto; /* 2 */
+  vertical-align: middle; /* 2 */
 }
 
 /**

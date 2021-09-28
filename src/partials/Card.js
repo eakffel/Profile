@@ -37,7 +37,6 @@ function Card() {
               <span class="sr-only">Github</span>
             </a>
           
-          
   
     </div>
     </div>

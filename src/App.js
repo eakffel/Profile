@@ -7,6 +7,7 @@ import Skills from './partials/Skills'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -24,6 +25,11 @@ function App() {
         <Footer />
       </div>
     </div>
-  );
-}
+
+  )
+
+  }
+      
+
+
 export default App;
