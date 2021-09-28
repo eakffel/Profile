@@ -8,13 +8,13 @@ function Card() {
 
   return (
     <div className="flex flex-col align-left w-full">
-      <div className="flex flex-col align-left justify-left max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
+      <div className="flex flex-col align-left justify-left max-w-xs mx-auto bg-white shadow-xl rounded-xl p-3">
         <div className="">
-          <img className="flex flex-col sm:flex-row w-45 align-left
+          <img className="flex flex-col sm:flex-row w-50 h-100 align-left
           mx-auto shadow-xl rounded-full" src={Profilepic} alt="Profile face" />
         </div>
-        <div className="text-center mt-5">
-          <p className="text-xl sm:text-2xl font-semibold text-gray-900">
+        <div className="text-center mt-6">
+          <p className="text-xl sm:text-5xl font-semibold text-gray-900">
           Eliza Keffeler
           </p>
           <p className="text-xl sm:text-2xl font-semibold text-gray-900">
