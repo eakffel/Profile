@@ -2,16 +2,14 @@ import React from 'react'
 import Profilepic from '../images/Profilepic.jpg'
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
-import {  CgMail} from 'react-icons/cg';
-
+import { CgMail} from 'react-icons/cg';
 function Card() {
 
   return (
-    <div className="flex flex-col align-left w-full">
-      <div className="flex flex-col align-left justify-left max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
+    <div className="w-full">
+      <div className="flex flex-col justify-left max-w-xs mx-auto bg-white shadow-xl rounded-xl p-5">
         <div className="">
-          <img className="flex flex-col sm:flex-row w-45 align-left
-          mx-auto shadow-xl rounded-full" src={Profilepic} alt="Profile face" />
+          <img className="w-45 mx-auto shadow-xl rounded-full" src={Profilepic} alt="Profile face" />
         </div>
         <div className="text-center mt-5">
           <p className="text-xl sm:text-2xl font-semibold text-gray-900">
@@ -36,14 +34,11 @@ function Card() {
               <FaGithub />
               <span class="sr-only">Github</span>
             </a>
-          
-          
-  
-    </div>
-    </div>
-    </div>
-    </div>
-      
+           
+          </div>
+        </div>
+        </div>
+        </div>
   )
 }
 

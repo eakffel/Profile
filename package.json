@@ -15,7 +15,7 @@
     "react-github-btn": "^1.2.0",
     "react-icons": "^3.11.0",
     "react-pdf": "^5.3.2",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
@@ -44,7 +44,7 @@
   "devDependencies": {
     "autoprefixer": "9.8.6",
     "postcss-cli": "^8.1.0",
-    "tailwindcss": "^1.9.2"
+    "tailwindcss": "^2.2.16"
   },
   "peerDependencies": {
     "postcss": "^8.0.0"
