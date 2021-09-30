@@ -6,7 +6,6 @@ module.exports = {
     // standardFontWeights: true
   },
   purge: [],
-  target: "relaxed",
   prefix: "",
   important: false,
   separator: ":",
