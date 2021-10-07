@@ -4,4 +4,5 @@ module.exports = {
         tailwindcss('./tailwind.js'),
         require('autoprefixer')
     ],
+    darkMode: 'media'
 };
