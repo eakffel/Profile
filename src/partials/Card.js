@@ -7,7 +7,7 @@ import {  CgMail} from 'react-icons/cg';
 function Card() {
 
   return (
-    <div className="flex flex-col align-left w-full">
+    <div className="flex flex-col-wrap align-left w-full">
       <div className="flex flex-col align-left justify-left max-w-xs mx-auto bg-white shadow-xl rounded-xl p-3">
         <div className="">
           <img className="flex flex-col sm:flex-row w-50 h-100 align-left
@@ -36,12 +36,13 @@ function Card() {
               <FaGithub />
               <span class="sr-only">Github</span>
             </a>
-          
-  
+           
     </div>
     </div>
     </div>
     </div>
+   
+    
       
   )
 }
