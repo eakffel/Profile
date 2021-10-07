@@ -1646,6 +1646,9 @@
   dependencies:
     "lodash" "^4.17.14"
 
+"async@~0.1.9":
+  "version" "0.1.22"
+
 "asynckit@^0.4.0":
   "integrity" "sha1-x57Zf380y48robyXkLzDZkdLS3k="
   "resolved" "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
@@ -3304,6 +3307,11 @@
   dependencies:
     "delayed-stream" "~1.0.0"
 
+"combined-stream@~0.0.4":
+  "version" "0.0.4"
+  dependencies:
+    "delayed-stream" "0.0.5"
+
 "commander@^2.11.0", "commander@^2.18.0", "commander@^2.20.0":
   "integrity" "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ=="
   "resolved" "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
@@ -3932,6 +3940,9 @@
   "integrity" "sha1-3zrhmayt+31ECqrgsp4icrJOxhk="
   "resolved" "https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz"
   "version" "1.0.0"
+
+"delayed-stream@0.0.5":
+  "version" "0.0.5"
 
 "depd@~1.1.2":
   "integrity" "sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak="
@@ -5093,6 +5104,13 @@
   "integrity" "sha1-+8cfDEGt6zf5bFd60e1C2P2sypE="
   "resolved" "https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz"
   "version" "0.6.1"
+
+"form-data@~0.0.3":
+  "version" "0.0.7"
+  dependencies:
+    "async" "~0.1.9"
+    "combined-stream" "~0.0.4"
+    "mime" "~1.2.2"
 
 "form-data@~2.3.2":
   "integrity" "sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ=="
@@ -7529,6 +7547,9 @@
   "resolved" "https://registry.npmjs.org/mime/-/mime-1.6.0.tgz"
   "version" "1.6.0"
 
+"mime@~1.2.2", "mime@~1.2.7":
+  "version" "1.2.9"
+
 "mimic-fn@^1.0.0":
   "integrity" "sha512-jf84uxzwiuiIVKiOLpfYk7N46TSy8ubTonmneY9vrpHNAnp0QBt2BxWV9dO3/j+BoVAb+a5G6YDPW3M5HOdMWQ=="
   "resolved" "https://registry.npmjs.org/mimic-fn/-/mimic-fn-1.2.0.tgz"
@@ -9656,6 +9677,14 @@
     "tunnel-agent" "^0.6.0"
     "uuid" "^3.3.2"
 
+"request@~2.14.0":
+  "integrity" "sha1-DYrLsLFMGrguAAt9OB+oyA0afYg="
+  "resolved" "https://registry.npmjs.org/request/-/request-2.14.0.tgz"
+  "version" "2.14.0"
+  dependencies:
+    "form-data" "~0.0.3"
+    "mime" "~1.2.7"
+
 "require-directory@^2.1.1":
   "integrity" "sha1-jGStX9MNqxyXbiNE/+f3kqam30I="
   "resolved" "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz"
@@ -9905,6 +9934,13 @@
   "integrity" "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg=="
   "resolved" "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
+
+"sage@^0.4.2":
+  "integrity" "sha1-Geyz8fJbwCRYtrE2vgxApK/8MH4="
+  "resolved" "https://registry.npmjs.org/sage/-/sage-0.4.2.tgz"
+  "version" "0.4.2"
+  dependencies:
+    "request" "~2.14.0"
 
 "sane@~1.6.0":
   "integrity" "sha1-lhDEUjB6E10pwf3+JUcDQYDEZ3U="
