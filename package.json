@@ -33,13 +33,11 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ],
-  
+  "development": [
+    "last 1 chrome version",
+    "last 1 firefox version",
+    "last 1 safari version"
+  ],
   "devDependencies": {
     "@babel/preset-env": "^7.15.6",
     "autoprefixer": "^10.3.7",
