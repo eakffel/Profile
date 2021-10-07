@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import './App.css'
 import About from './partials/Work'
 import Card from './partials/Card'
-import Intro from './partials/intro'
+import Intro from './partials/Intro'
 import Footer from './partials/Footer'
 import Skills from './partials/Skills'
 import AOS from 'aos';
