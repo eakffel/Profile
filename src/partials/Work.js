@@ -6,11 +6,11 @@ import E from '../images/E.jpg'
 function About() {
   return (
 
-    <div className="max-w-4xl mx-auto mt-16">
+    <div className="max-w-4xl mx-auto mt-10 ">
       <p className=" sm:flex-row text-2xl md:text-4xl font-bold text-center">
         Work Collection | 作品集
       </p>
-      <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto border-b-2">
+      <p className="text-xs sm:text-base text-gray-600 pt-2 pb-2 px-10 w-auto border-t-2">
          Click image for links ｜ 點及照片去到對應連接:</p>
       <div className="flex align-center justify-center mt-8 ">
      <a ClassName="MPO-SM" 

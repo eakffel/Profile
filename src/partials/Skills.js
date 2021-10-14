@@ -6,11 +6,11 @@ import { SiGoogleanalytics} from 'react-icons/si';
 
 function Skills() {
   return (
-      <div className="max-w-4xl mx-auto mt-16">
- <p className=" text-2xl md:text-4xl font-bold text-center ">
+    <div className="max-w-4xl mx-auto mt-16 ">
+        <p className=" sm:flex-row text-2xl md:text-4xl font-bold mr-8 ">
         Skills | 技能
       </p>
-      <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto border-b-2">
+      <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto border-t-2">
     Listed Below ｜ 列在以下：</p>
     <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
       <div className="m-4 w-40 flex-none mx-auto text-center sm:m-2 p-5 rounded-xl border-2 border-gray-300">
