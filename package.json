@@ -21,7 +21,7 @@
     "react-router-dom": "^5.3.0",
     "react-scripts": "^4.0.3",
     "sage": "^0.4.2",
-    "webpack": "^4.46.0"
+    "webpack": "4.44.2"
   },
   "scripts": {
     "start": "npm run watch:css && react-scripts start",
@@ -44,5 +44,17 @@
     "postcss": "^8.3.9",
     "postcss-cli": "^8.1.0",
     "tailwindcss": "^1.9.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
