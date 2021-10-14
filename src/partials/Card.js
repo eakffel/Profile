@@ -7,7 +7,7 @@ import {  CgMail} from 'react-icons/cg';
 function Card() {
 
   return (
-    <div className="md:flex flex-row-wrap align-center m-7 mr-20">
+    <div className="md:flex flex-row-wrap align-center mt-8 mr-20">
       <div className="md:flex flex-row align-center justify-center max-w-s mx-auto bg-blue shadow-xl rounded-xl p-2">
           <img className="md:flex flex-gridRow max-w-xs align-center sm:flex-row w-35 h-75
           mx-auto shadow-xl rounded-full" src={Profilepic} alt="Profile face" />
