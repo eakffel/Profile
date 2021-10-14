@@ -13,7 +13,7 @@ function Card() {
           mx-auto shadow-xl rounded-full" src={Profilepic} alt="Profile face" />
 
         <div className="text-center m-2 mt-20 mx-auto">
-          <p className="text-xl sm:text-4xl font-semibold mx-6 text-gray-700">
+          <p className="text-xl sm:text-4xl font-semibold mx-6 text-gray-800">
           Eliza Keffeler
           </p>
           <p className="text-xl sm:text-1xl font-semibold text-gray-700">
