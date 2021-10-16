@@ -22,11 +22,11 @@ Click image for links ｜ 點及照片去到對應連接</p>
 bg-white-300 shadow-xl rounded-xl px-30">
 
 <a ClassName="Resume" 
-     href= ":https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:caa27e14-a7f3-4641-80c6-2779635e5bc7"target="_blank" rel="noopener noreferrer">
+     href= ":https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:31f00990-2c4a-4877-9ad7-216e46945c26"target="_blank" rel="noopener noreferrer">
      <img className="flex flex-col sm:flex-row w-25 h-40 mx-auto sm:m-2 shadow-xl square border-b-4" src={Rpic} alt='PDF'/>
     </a >  
     <a ClassName="Resume2" 
-     href= "https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:31f00990-2c4a-4877-9ad7-216e46945c26"target="_blank" rel="noopener noreferrer">
+     href= ":https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:caa27e14-a7f3-4641-80c6-2779635e5bc7"target="_blank" rel="noopener noreferrer">
      <img className="flex flex-col sm:flex-row w-25 h-40 mx-auto sm:m-2 shadow-xl square border-b-4" src={Rpic2} alt='PDF'/>
     </a >  
 
