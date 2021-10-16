@@ -13,10 +13,11 @@ function Skills() {
       </p>
       <p className="text-xs sm:text-base text-gray-600 pt-2 pb-4 px-5 w-auto border-t-2">
     Listed Below ｜ 列在以下：</p>
-    <div className="flex flex-col sm:flex-row align-center justify-center max-w-2xl mx-auto mt-8">
+    <div className="flex flex-col sm:flex-row align-center justify-center max-w-8xl mx-auto mt-8
+    bg-white-300 shadow-xl rounded-xl px-20">
       <div className="m-4 w-40 flex-none mx-auto text-center sm:m-2 p-5 
-      rounded-xl border-2 border-gray-300">
-        <FaReact className="text-4xl sm:m-2 mx-auto inline-block" />
+      rounded-xl border-2 border-gray-200">
+        <FaReact className="text-4xl sm:m-2 mx-auto inline-block " />
         <p className="text-xl font-semibold mt-4">
           Graphic Design
         </p>
@@ -24,14 +25,14 @@ function Skills() {
         美術設計 </p>
       </div>
       <div className="m-4 w-40 flex-none mx-auto text-center sm:m-2 p-5 
-      rounded-xl border-2 border-gray-300">
+      rounded-xl border-2 border-gray-200">
         <FaReact className="text-4xl sm:m-2 mx-auto inline-block" />
         <p className="text-xl font-semibold mt-4">
           Digital Marketing 新媒體行銷
         </p>
       </div>
       <div className="m-4 w-40 flex-none mx-auto text-center sm:m-2 p-5 
-      rounded-xl border-2 border-gray-300">
+      rounded-xl border-2 border-gray-200">
         <SiGoogleanalytics className="text-4xl sm:m-2 mx-auto inline-block" />
         <p className="text-xl font-semibold mt-4">
           Google Analyics 
@@ -41,7 +42,7 @@ function Skills() {
         </p>
       </div>
     <div className="m-4 w-40 flex-none mx-auto text-center p-4 sm:m-2 
-    rounded-xl border-2 border-gray-300">
+    rounded-xl border-2 border-gray-200">
       <FaCode className="text-4xl sm:m-2 mx-auto inline-block" />
       <p className="text-xl font-semibold mt-4">
         Frontend 
@@ -51,14 +52,14 @@ function Skills() {
         </p>
     </div>
       <div className="m-5 w-40 flex-none mx-auto text-center p-4 sm:m-2 
-      rounded-xl border-2 border-gray-300">
+      rounded-xl border-2 border-gray-200">
         <FaDatabase className="text-4xl sm:m-2 mx-auto inline-block" />
         <p className="text-xl font-semibold mt-4">
           Marketing Data analysis 市場數據分析
         </p>
       </div>
-      <div className="m-4 w-40 flex-none mx-auto text-center sm:m-2 p-5 
-      rounded-xl border-2 border-gray-300">
+      <div className="m-5 w-40 flex-none mx-auto text-center sm:m-2 p-4 
+      rounded-xl border-2 border-gray-200">
         <FaReact className="text-4xl sm:m-2 mx-auto inline-block" />
         <p className="text-xl font-semibold mt-4">
           ReactJS
