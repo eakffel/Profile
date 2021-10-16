@@ -1,6 +1,7 @@
 import React from 'react'
-import Rpic from '../images/Rpic.jpg'
-import Rpic2 from '../images/Rpic2.jpg'
+import Olemiss from '../images/Olemiss.png'
+import Dragon from '../images/Dragon.jpeg'
+
 
 
 
@@ -10,28 +11,54 @@ function Intro() {
 
     return(
         <div>
-        <p className="text-xs sm:text-base text- pt-2 mb-5 px-5 w-auto border-b-4"></p>
+        <p className=" T
+        text-xs sm:text-base text- pt-2 mb-5 px-5 w-auto border-b-4"></p>
+        <div className=" flex-row-wrap align-left justify-left w-auto mt-8">
+        <p className="md:flex flex-gridRow text-xl sm:text-3xl font-semibold text-gray-300 mt-4 
+        bg-gray-500 shadow-xl rounded-xl p-2">
+            教育背景｜EDUCATION</p>
+            </div>
+     <div className=" College
+     md:flex align-left justify-left w-auto rounded-xl
+     border-l-2 border-r-2 border-gray-200 bg-gray-100">
+            <img className="md:flex max-w-xs align-left justify-left w-20 h-20 ml-20 mt-2
+           shadow-xl rounded-full" src={Olemiss} alt="Olemiss" />
+        <a href="https://olemiss.edu" className=" md:flex text-xs sm:text-base text-gray-600 pt-2 pb-2 px-10 w-auto mt-6 ">
+             密西西比大學｜University of Mississippi              
+         </a>
+         <p className="text-xs sm:text-base text-gray-600 pt-2 pb-2 px-10 w-auto m-6 ">
+            經濟市場行銷/中文雙學位｜Marketing/ Chinese
+            </p>
+            <p className="text-xs sm:text-base text-gray-600 pt-2 pb-2 px-10 w-auto m-6 ">
+            八月 2018年 - 八月 2022年</p>
+            </div>
 
-        <p className="text-xl sm:text-3xl font-semibold text-gray-800 mt-4 bg-gray-400 shadow-xl rounded-xl p-2 
-        ">
-            Resume｜履歷</p>
-<p className="text-xs sm:text-base text-gray-600 pt-2 pb-2 px-10 w-auto border-t-2">
-Click image for links ｜ 點及照片去到對應連接</p>
+     <div className=" Collierville
+     md:flex w-auto mb-2 rounded-xl border-2 border-gray-200 bg-gray-100">
 
-<div className="flex align-left justify-center mt-6 
-bg-white-300 shadow-xl rounded-xl px-30">
+            <img className="md:flex max-w-xs align-left justify-left w-20 h-20 ml-20 mt-2 mb-2
+                shadow-xl rounded-full" src={Dragon} alt="Olemiss" />
+                <a href="https://colliervillems.colliervilleschools.org" className="text-xs sm:text-base text-gray-600 pt-2 
+                pb-2 px-10 w-auto m-6 ">
+                    Collierville 高中｜Collierville High              
+                </a>
+                <p className="text-xs sm:text-base text-gray-600 pt-2 pb-2 px-10 w-auto m-6 mr-20 ">
+                中英文雙文憑｜bilingual Sealed Diploma 
+                    </p>
+                <p className="align-right text-xs sm:text-base text-gray-600 pt-2 pb-2 px-10 w-auto
+                     m-6 mr-10">
+                    八月 2018年 - 八月 2022年</p>
 
-<a ClassName="Resume" 
-     href= ":https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:31f00990-2c4a-4877-9ad7-216e46945c26"target="_blank" rel="noopener noreferrer">
-     <img className="flex flex-col sm:flex-row w-25 h-40 mx-auto sm:m-2 shadow-xl square border-b-4" src={Rpic} alt='PDF'/>
-    </a >  
-    <a ClassName="Resume2" 
-     href= ":https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:caa27e14-a7f3-4641-80c6-2779635e5bc7"target="_blank" rel="noopener noreferrer">
-     <img className="flex flex-col sm:flex-row w-25 h-40 mx-auto sm:m-2 shadow-xl square border-b-4" src={Rpic2} alt='PDF'/>
-    </a >  
-
+                   
+          </div>
 </div>
-</div>
+
+
+
+
+
+
+
 
 
     )
