@@ -12,24 +12,28 @@ import Rpic2 from '../images/Rpic2.jpg'
 function Card() {
 
   return (
-   
-        <div className=" Name
-        flex align-center mt-4 mr-20">
-        <div className="md:flex flex-row align-center justify-center max-w-s mx-auto 
-        bg-blue shadow-xl rounded-xl p-2 bg-gray-100">
-            <img className="md:flex max-w-xs align-center w-40 h-40 mb-2 ml-2 mt-8
-             shadow-xl rounded-2xl" src={Profilepic} alt="Profile face" />
-      <div className="text-center m-2 mt-2 mx-auto">
-          <p className="text-xl sm:text-4xl font-semibold mx-2 text-gray-800">
-          Eliza Keffeler
-          </p>
-          <div className="text-center mt-2 mx-auto">
-          <p className="text-xl sm:text-1xl font-semibold text-gray-700">
+
+    <div className="
+     text-center mt-1 mx-auto shadow-md rounded-md p-2 bg-gray-100">
+    <p className="text-xl sm:text-6xl font-semibold mx-2 text-gray-800
+    shadow-xl rounded-xl p-2 bg-gray-100">
+    Eliza Keffeler
+       </p>
+       <p className="text-xl sm:text-2xl font-semibold text-gray-700">
           衛莎莎｜卫莎莎
           </p>
+       
+   <div className=" Pro
+   md:flex flex-row align-left justify-center max-w-s mx-auto">
+            <img className="md:flex max-w-xs align-center w-45 h-50 mb-6 mt-4 ml-20  
+             shadow-xl rounded-full
+             border-black border-4" 
+             src={Profilepic} alt="Profile face"/>
+
+  <div className="text-center m-2 mt-2 mx-auto">
           <p className="text-xs sm:text-base text-gray-700 pt-2 pb-1 px-20 w-auto inline-block border-b-4">
           </p>
-          
+        
 <div className=" Contact link
         flex align-center justify-center mt-1">
           <a className="text-xl m-1 p-1 sm:m-2 sm:p-1 text-gray-800 hover:bg-gray-800 
@@ -82,14 +86,15 @@ function Card() {
                            target="_blank" rel="noopener noreferrer">
                           <img className="flex flex-col sm:flex-row w-20 h-30 sm:m-2 shadow-xl square" src={Martin} alt='PDF'/>
                          </a >  
+               
+                         </div>
                 </div>
      
             </div>
    
     </div>
-  </div>
+ 
     
-    </div>
     
    
     
