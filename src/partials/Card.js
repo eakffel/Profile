@@ -14,9 +14,9 @@ function Card() {
   return (
 
     <div className="
-     text-center font-sans mt-1 mx-auto shadow-md rounded-md p-2 bg-gray-100">
+     text-center font-sans-500 mt-1 mx-auto shadow-md rounded-md p-2 bg-gray-100">
     <p className="text-xl sm:text-6xl font-sans mx-2 text-gray-100
-    shadow-xl rounded-2xl p-2 bg-gray-800">
+    shadow-l rounded-2xl p-1 bg-gray-800">
     Eliza Keffeler
        </p>
        <p className="text-xl sm:text-3xl font-semibold text-gray-700">

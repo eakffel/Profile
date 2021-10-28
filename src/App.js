@@ -16,9 +16,10 @@ function App() {
     })
   })
   return (
-    <div className="min-h-screen py-1 px-4  
-    sm:px-5 bg-gray-800">
-      <div data-aos="fade-down" data-aos-duration="800">
+    <div className=" Background
+     py-1 px-4 sm:px-5 bg-gray-800">
+
+    <div data-aos="fade-down" data-aos-duration="800">
         <Card/>
         <Intro/>
         <About/>
