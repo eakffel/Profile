@@ -63,17 +63,11 @@ function Card() {
                           md:flex flex-row-wrap align-left justify-left w-auto ">
                           
                 <a ClassName="Resume" 
-                  href= ":https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:31f00990-2c4a-4877-9ad7-216e46945c26"
+                  href= "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:8b18b797-cb24-3e57-a863-5191c7a1eedf"
                   target="_blank" rel="noopener noreferrer">
                   <img className="flex flex-gridRow sm:flex-row w-25 h-40  m-3 sm:m-2 shadow-xl square "
                    src={Rpic} alt='PDF'/>
                   </a >  
-                   <a ClassName="Resume2" 
-                      href= ":https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:3b35a0c2-d798-4380-b774-e16faca67d81"
-                      target="_blank" rel="noopener noreferrer">
-                          <img className="flex flex-col sm:flex-roww-25 h-40 sm:m-2 shadow-xl square " 
-                          src={Rpic2} alt='PDF'/>
-                       </a >  
                       <a ClassName="MPO-SM" 
                        href= "https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:1f8a3c84-3e4d-4c60-9e19-3517f83ceb52"
                        target="_blank" rel="noopener noreferrer">
