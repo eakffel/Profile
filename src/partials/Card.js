@@ -81,7 +81,7 @@ function Card() {
                         src={MPO} alt='PDF'/>
                          </a >
                          <a ClassName="Pastwork" 
-                         href= "https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:b95e2045-4c35-4083-8514-508c9f048120"
+                         href= "https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:9d27f95d-d30f-3570-b69d-513ada3b7d5b"
                          target="_blank" rel="noopener noreferrer">
                          <img className="flex flex-col sm:flex-row w-25 h-40  sm:m-2 shadow-xl square" 
                          src={E} alt='PDF'/>
